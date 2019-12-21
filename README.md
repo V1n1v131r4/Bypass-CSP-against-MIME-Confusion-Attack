@@ -54,13 +54,18 @@ This PoC has been tested on the following browsers:
 
 Below are some screenshots of PoC
 
+Google Chrome
 ![alt](https://ciber.sejalivre.org/WP/chrome.png)
 
+Google Chromium
 ![alt](https://ciber.sejalivre.org/WP/chromium.png)
 
+Mozilla Firefox
 ![alt](https://ciber.sejalivre.org/WP/firefox.png)
 
+Opera
 ![alt](https://ciber.sejalivre.org/WP/opera.png)
 
+Safari
 ![alt](https://ciber.sejalivre.org/WP/safari.jpeg)
 
