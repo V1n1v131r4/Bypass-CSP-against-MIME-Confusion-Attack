@@ -61,6 +61,7 @@ I managed to bypass CSP by stating more than one extension in the image file wit
 
 So the image continues to be read as script by `<script>` tag and as image by `<img>` tag.
 
+Note that the image file is the same as both scenarios, only its extension has been changed.
 
 Below is the browser allowing MIME confusion attack by bypass in your Content Security Policy
 
