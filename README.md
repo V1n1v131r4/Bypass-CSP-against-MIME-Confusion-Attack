@@ -70,7 +70,7 @@ Opera
 ![alt](https://ciber.sejalivre.org/WP/opera.png)
 
 Safari
-![alt](https://ciber.sejalivre.org/WP/safari.jpeg)
+![alt](https://ciber.sejalivre.org/WP/Safari.jpeg)
 
 Edge
 ![alt](https://ciber.sejalivre.org/WP/edge.png)
