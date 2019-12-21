@@ -64,7 +64,7 @@ Google Chromium
 ![alt](https://ciber.sejalivre.org/WP/chromium.png)
 
 Mozilla Firefox
-![alt](https://ciber.sejalivre.org/WP/firefox.png)
+![alt](https://ciber.sejalivre.org/WP/Firefox.png)
 
 Opera
 ![alt](https://ciber.sejalivre.org/WP/opera.png)
