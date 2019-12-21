@@ -48,7 +48,7 @@ Below is the browser blocking MIME confusion attack via its Content Security Pol
 ![alt](https://ciber.sejalivre.org/WP/console1.png)
 
 
-## Scenario 2 - PoC of attack
+## Scenario 2 - The Bypass
 
 I managed to bypass CSP by stating more than one extension in the image file with embedded JavaScript code, like this:
 
