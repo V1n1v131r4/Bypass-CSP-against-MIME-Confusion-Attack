@@ -25,6 +25,15 @@ The inline JavaScript code was this:
 */=alert("Burp rocks.")/*
 ```
 
+The PoC website is hosted at: 
+
+* Scenario 1: http://joomla.sejalivre.org/index.html
+
+* Scenario 2: http://joomla.sejalivre.org/index2.html
+
+
+## Scenario 1
+
 CSP's correct behavior in HTTP MIME Type is not to allow an image file with embedded JavaScript code to be read as script, as below the HTML/JS code below:
 
 ```
@@ -33,10 +42,13 @@ CSP's correct behavior in HTTP MIME Type is not to allow an image file with embe
 	   <script src="2x.jpg"></script>
  </html>
 ```
+
 Below is the browser blocking MIME confusion attack via its Content Security Policy:
 
 ![alt](https://ciber.sejalivre.org/WP/console1.png)
 
+
+## Scenario 2
 
 I managed to bypass CSP by stating more than one extension in the image file with embedded JavaScript code, like this:
 
@@ -56,7 +68,7 @@ Below is the browser allowing MIME confusion attack by bypass in your Content Se
 
 
 
-The PoC website is hosted at: http://joomla.sejalivre.org/index2.html
+
 
 
 
