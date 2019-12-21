@@ -11,7 +11,6 @@ The image used in this PoC is as follows
 
 ![alt](https://ciber.sejalivre.org/WP/2x.jpg)
 
-This is 
 
 Available here: http://portswigger-labs.net/polyglot/jpeg/xss_within_header_compressed_small_logo.jpg
 
