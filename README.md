@@ -49,6 +49,9 @@ This PoC has been tested on the following browsers:
 * Google Chromium 81.0.4003.0 (Windows and Linux)
 * Apple Safari 13.0.4 (MacOS Catalina)
 * Opera 60 - R3 (Windows and Linux)
+* Microsoft Edge (Windows 10)
+* Microsoft Internet Explorer 11 (Windows 10)
+
 
 ## Screenshots
 
@@ -68,4 +71,10 @@ Opera
 
 Safari
 ![alt](https://ciber.sejalivre.org/WP/safari.jpeg)
+
+Edge
+![alt](https://ciber.sejalivre.org/WP/edge.jpeg)
+
+IE
+![alt](https://ciber.sejalivre.org/WP/IE.jpeg)
 
