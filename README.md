@@ -73,8 +73,8 @@ Safari
 ![alt](https://ciber.sejalivre.org/WP/safari.jpeg)
 
 Edge
-![alt](https://ciber.sejalivre.org/WP/edge.jpeg)
+![alt](https://ciber.sejalivre.org/WP/edge.png)
 
 IE
-![alt](https://ciber.sejalivre.org/WP/IE.jpeg)
+![alt](https://ciber.sejalivre.org/WP/IE.png)
 
