@@ -7,6 +7,25 @@ But based on my studies I found a way to bypass CSP and perform Cross-Site Scrip
 
 ## Proof of concept Step-by-step
 
+The image used in this PoC is as follows
+
+![alt](https://ciber.sejalivre.org/WP/2x.jpg)
+
+This is 
+
+Available here: http://portswigger-labs.net/polyglot/jpeg/xss_within_header_compressed_small_logo.jpg
+
+
+These are the image strings with the embedded JS code:
+
+![alt](https://ciber.sejalivre.org/WP/xxd.png)
+
+
+The inline JavaScript code was this:
+```
+*/=alert("Burp rocks.")/*
+```
+
 CSP's correct behavior in HTTP MIME Type is not to allow an image file with embedded JavaScript code to be read as script, as below the HTML/JS code below:
 
 ```
@@ -15,6 +34,10 @@ CSP's correct behavior in HTTP MIME Type is not to allow an image file with embe
 	   <script src="2x.jpg"></script>
  </html>
 ```
+Below is the browser blocking MIME confusion attack via its Content Security Policy:
+
+![alt](https://ciber.sejalivre.org/WP/console1.png)
+
 
 I managed to bypass CSP by stating more than one extension in the image file with embedded JavaScript code, like this:
 
@@ -27,14 +50,12 @@ I managed to bypass CSP by stating more than one extension in the image file wit
 
 So the image continues to be read as script by `<script>` tag and as image by `<img>` tag.
 
-  
-The image used as PoC was the one available here: http://portswigger-labs.net/polyglot/jpeg/xss_within_header_compressed_small_logo.jpg
+
+Below is the browser allowing MIME confusion attack by bypass in your Content Security Policy
+
+![alt](https://ciber.sejalivre.org/WP/console2.png)
 
 
-The inline JavaScript code was this:
-```
-*/=alert("Burp rocks.")/*
-```
 
 The PoC website is hosted at: http://joomla.sejalivre.org/index2.html
 
