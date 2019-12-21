@@ -60,6 +60,8 @@ The PoC website is hosted at: http://joomla.sejalivre.org/index2.html
 
 
 
+
+
 ## Vulnerable Browsers
 
 This PoC has been tested on the following browsers:
