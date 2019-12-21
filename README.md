@@ -78,13 +78,13 @@ Below is the browser allowing MIME confusion attack by bypass in your Content Se
 
 This PoC has been tested on the following browsers:
 
-* Mozilla Firefox 71.0 (Windows, Linux and Android)
-* Google Chrome 79.0.3945.88 (Windows, Linux and Android)
-* Google Chromium 81.0.4003.0 (Windows and Linux)
-* Apple Safari 13.0.4 (MacOS Catalina)
-* Opera 60 - R3 (Windows and Linux)
-* Microsoft Edge (Windows 10)
-* Microsoft Internet Explorer 11 (Windows 10)
+* Mozilla Firefox < 71.0 (Windows, Linux and Android)
+* Google Chrome < 79.0.3945.88 (Windows, Linux and Android)
+* Google Chromium < 81.0.4003.0 (Windows and Linux)
+* Apple Safari 13.0.4 < (MacOS Catalina)
+* Opera 60 - R3 < (Windows and Linux)
+* Microsoft Edge < 44.18362.449.0 (Windows 10)
+* Microsoft Internet Explorer < 11 (Windows 10)
 
 
 ## Screenshots
