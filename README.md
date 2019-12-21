@@ -25,9 +25,11 @@ I managed to bypass CSP by stating more than one extension in the image file wit
  </html>
 ```
 
-So the image continues to be read as script by <script> tag and as image by <img> tag.
+So the image continues to be read as script by `<script>` tag and as image by `<img>` tag.
+
   
 The image used as PoC was the one available here: http://portswigger-labs.net/polyglot/jpeg/xss_within_header_compressed_small_logo.jpg
+
 
 The inline JavaScript code was this:
 ```
@@ -36,8 +38,13 @@ The inline JavaScript code was this:
 
 The PoC website is hosted at: http://joomla.sejalivre.org/index2.html
 
+
+
+## Vulnerable Browsers
+
 This PoC has been tested on the following browsers:
 
-* Mozilla Firefox 71.0 (Windows e Linux)
-* Google Chrome 79.0.3945.88 (Windows e Linux)
+* Mozilla Firefox 71.0 (Windows, Linux and Android)
+* Google Chrome 79.0.3945.88 (Windows, Linux and Android)
 * Apple Safari 13.0.4 (MacOS Catalina)
+* Opera 60 -R3 (Windows and Linux)
