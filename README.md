@@ -46,5 +46,21 @@ This PoC has been tested on the following browsers:
 
 * Mozilla Firefox 71.0 (Windows, Linux and Android)
 * Google Chrome 79.0.3945.88 (Windows, Linux and Android)
+* Google Chromium 81.0.4003.0 (Windows and Linux)
 * Apple Safari 13.0.4 (MacOS Catalina)
-* Opera 60 -R3 (Windows and Linux)
+* Opera 60 - R3 (Windows and Linux)
+
+## Screenshots
+
+Below are some screenshots of PoC
+
+![alt](https://ciber.sejalivre.org/WP/chrome.png)
+
+![alt](https://ciber.sejalivre.org/WP/chromium.png)
+
+![alt](https://ciber.sejalivre.org/WP/firefox.png)
+
+![alt](https://ciber.sejalivre.org/WP/opera.png)
+
+![alt](https://ciber.sejalivre.org/WP/safari.jpeg)
+
