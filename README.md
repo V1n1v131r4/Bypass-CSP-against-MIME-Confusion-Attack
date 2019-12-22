@@ -72,13 +72,45 @@ Below is the browser allowing MIME confusion attack by bypass in your Content Se
 
 
 
+Here are HTTP Response on both scenarios:
+
+```
+$ curl -I http://joomla.sejalivre.org/2x.jpg
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 22 Dec 2019 06:26:44 GMT
+Content-Type: image/jpeg
+Content-Length: 3318
+Connection: keep-alive
+Last-Modified: Thu, 19 Dec 2019 20:38:08 GMT
+Expires: Thu, 20 Feb 2020 06:26:44 GMT
+Cache-Control: max-age=5184000
+Pragma: public
+Accept-Ranges: bytes
+```
+
+```
+$ curl -I http://joomla.sejalivre.org/2x.jpg.js
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 22 Dec 2019 06:26:12 GMT
+Content-Type: application/javascript
+Content-Length: 3318
+Connection: keep-alive
+Vary: Accept-Encoding
+Last-Modified: Fri, 20 Dec 2019 21:27:54 GMT
+Expires: Tue, 21 Jan 2020 06:26:12 GMT
+Cache-Control: max-age=2592000
+Pragma: public
+Accept-Ranges: bytes
+```
 
 
+## Browsers and servers tested
 
-## Vulnerable Browsers
+This PoC has been tested on the following browsers scenarios:
 
-This PoC has been tested on the following browsers:
-
+* Nginx 
 * Mozilla Firefox < 71.0 (Windows, Linux and Android)
 * Google Chrome < 79.0.3945.88 (Windows, Linux and Android)
 * Google Chromium < 81.0.4003.0 (Windows and Linux)
