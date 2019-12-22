@@ -110,7 +110,7 @@ Accept-Ranges: bytes
 
 This PoC has been tested on the following browsers scenarios:
 
-* Nginx 
+* Nginx + Apache 2.4.41
 * Mozilla Firefox < 71.0 (Windows, Linux and Android)
 * Google Chrome < 79.0.3945.88 (Windows, Linux and Android)
 * Google Chromium < 81.0.4003.0 (Windows and Linux)
