@@ -106,7 +106,7 @@ Accept-Ranges: bytes
 ```
 
 
-In the first scenario webserver sends the image as Content-Type:image/jpeg.  In the second it is sent as Content-Type:application/javascript due to the change of file extension.
+In the first scenario webserver sends the image as `Content-Type:image/jpeg`.  In the second it is sent as `Content-Type:application/javascript` due to the change of file extension.
 
 ## Browsers and servers tested
 
