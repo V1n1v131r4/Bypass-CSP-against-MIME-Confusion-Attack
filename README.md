@@ -106,9 +106,11 @@ Accept-Ranges: bytes
 ```
 
 
+In the first scenario webserver sends the image as Content-Type:image/jpeg.  In the second it is sent as Content-Type:application/javascript due to the change of file extension.
+
 ## Browsers and servers tested
 
-This PoC has been tested on the following browsers scenarios:
+This PoC has been tested on the following scenarios:
 
 * Nginx (on cPanel 82)
 * Apache 2.4.41
