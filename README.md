@@ -2,7 +2,7 @@
 
 Major browsers have implemented Content Security Policy against MIME confusion attacks since 2018, reported by CVE-2018-5164 and CVE-2019-19916 (my report) which use polyglot image files (GIF, JPG ...) with embedded JavaScript code (as described here: https://blog.mozilla.org/security/2016/08/26/mitigating-mime-confusion-attacks-in-firefox/ and here https://github.com/V1n1v131r4/MIME-Confusion-Attack-on-Midori-Browser).
 
-But based on my studies I found a way to bypass CSP and perform Cross-Site Script (XSS) attacks by exploiting the MIME Type of the HTTP header.
+But based on my studies I found a way to bypass CSP and perform Cross-Site Script (XSS) attacks by exploiting the MIME Type of the HTTP header, allowing remote code execution when accessing malicious websites.
 
 
 ## Proof of concept Step-by-step
